@@ -2,12 +2,71 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>veggiebox</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
+
   <body>
-    <h1>Shop</h1>
+    <header>
+      <nav>
+        <div class="topnav">
+          <a href="#home">
+            <img
+              class="home-image"
+              src="./images/veggiebox-logo.png"
+              alt="veggiebox logo"
+            />
+          </a>
+          <div class="right-bar">
+            <a href="#started">Get Started</a>
+            <a href="#about">About Us</a>
+            <a href="#what">What We Deliver</a>
+            <a href="#producers">Our Producers</a>
+            <a href="#login">Log In</a>
+            <a href="#cart">Cart </a>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="header-img">
+          <img
+            class="contents-image"
+            src="./images/customize-hero-text.png"
+            alt="choose your box contents image"
+          />
+        </div>
+      </main>
+    </header>
+    <div class="width-wrap">
+      <section class="top-body">
+        <div class="customize">
+          <p class="customize-nav">Choose Your Plan</p>
+          <p class="customize-nav">></p>
+          <p class="customize-nav" id="customize-black">Customize</p>
+          <p class="customize-nav">></p>
+          <p class="customize-nav">Billing & Delivery</p>
+        </div>
+        <h1 class="build-your-plan-title">Build Your Plan</h1>
+        <h3 class="select-products-title">Select 6 Products</h3>
+        <div class="progress-bar">
+          <div class="bar">
+            <div id="progressBarFull"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-body">
+        <div id="shop"></div>
+      </section>
+    </div>
   </body>
+  <script src="index.js"></script>
 </html>
