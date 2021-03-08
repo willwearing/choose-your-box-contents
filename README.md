@@ -29,8 +29,6 @@ Code is well formatted
 There should be no inline CSS or JS
 
 
-
-
 Completion
 
 When you have completed your assignment please zip and share via a google drive or other file sharing service. 
