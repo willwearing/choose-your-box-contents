@@ -36,3 +36,5 @@ When you have completed your assignment please zip and share via a google drive 
 Bonus Points
 
 Complete the navigation and make it responsive 
+
+Offer - declined role
